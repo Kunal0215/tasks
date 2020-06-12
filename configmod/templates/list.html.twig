@@ -1,0 +1,8 @@
+{% for item in items %}
+  <b>Title:</b>  {{ item.title }}
+  <br>
+  <b>Description:</b>  {{ item.desc|render|striptags }}
+  <br>
+  <b>Image:</b>
+  <img  width=100px src={{ item.url }}>
+{% endfor %}

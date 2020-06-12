@@ -1,0 +1,27 @@
+<?php
+function configmod_schema() {
+  $schema['custom_config'] = array(
+    'description' => 'Custom configuration',
+    'fields' => array(
+      'title' => array(
+        'description' => 'Title',
+        'type' => 'varchar',
+        'length' => 64,
+        'default' => 'Title',
+      ),
+      'description' => array(
+        'description' => 'Description',
+        'type' => 'varchar',
+        'length' => 64,
+        'default' => 'Description',
+      ),
+      'image' => array(
+        'description' => 'Image',
+        'type' => 'varchar',
+        'length' => 1000,
+        'default' => 'Image',
+      ),
+    ),
+);
+  return $schema;
+}

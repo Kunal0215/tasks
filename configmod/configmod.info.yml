@@ -1,0 +1,5 @@
+name: configmod
+type: module
+description: Module for custom configuration
+core: 8.x
+package: Custom

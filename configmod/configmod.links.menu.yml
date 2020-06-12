@@ -1,0 +1,5 @@
+configmod.settings_form:
+  title: 'CustomConfig'
+  route_name: configmod.settings_form
+  description: 'Custom configuration form'
+  parent: system.admin_config_system
